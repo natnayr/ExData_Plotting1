@@ -1,6 +1,6 @@
 #Read FIles
 data_all <- read.table(file="exdata-data-household_power_consumption/household_power_consumption.txt", sep=";", header=TRUE,na.strings="?", 
-                       nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
+                       check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
 
 #Format Date
 data_all$Date <- as.Date(data_all$Date, format = "%d/%m/%Y")
