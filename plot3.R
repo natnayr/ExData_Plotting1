@@ -12,11 +12,15 @@ rm(data_all)
 #Join DateTime columns
 data$Datetime <- as.POSIXct(paste(as.Date(data$Date), data$Time))
 
+#Make Plot
 with(data, {
   plot(Sub_metering_1~Datetime, type="l", xlab="", ylab="Energy sub metering")
   lines(Sub_metering_2~Datetime, col="red")
   lines(Sub_metering_3~Datetime, col="blue")
 })
+
+#add legend
+legend("topright", legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col=c("black", "red", "blue"),lty=1, lwd=2)
 
 
 #Copy and create png file
