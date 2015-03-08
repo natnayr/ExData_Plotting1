@@ -1,7 +1,3 @@
-
-
-
-
 ## Exploratory Analysis Project 1
 
 This is my submission for the Coursera Course "Exoloratory Analysis Project 1". Included are 8 files to take note, 4 R code files to produce the resulting 4 png images of the results
@@ -10,6 +6,7 @@ To run script
 * Download Scripts
 * Download data from <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 * Extract to the work directory and excess via "exdata-data-household_power_consumption/household_power_consumption.txt"
+* Run script
 
 ## Introduction - Project Details
 
